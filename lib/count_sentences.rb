@@ -30,5 +30,6 @@ class String
      test.split(/\.|\?|!/).length
      puts "#{sentence_count} sentences"
      binding.pry
+    end
   end
 end
