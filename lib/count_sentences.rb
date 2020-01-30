@@ -3,7 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    
+  end_with?(.)
+    true
   end
 
   def question?
