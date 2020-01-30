@@ -26,7 +26,7 @@ class String
     end
   end
 
-  def count_sentences(number)
+  def count_sentences
     text.split(/\.|\?|!/).length
     puts "#{sentence_count} sentences"
      
