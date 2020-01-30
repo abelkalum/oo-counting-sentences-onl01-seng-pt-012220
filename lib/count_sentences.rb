@@ -28,6 +28,6 @@ class String
 
   def count_sentences
      test.split(/\.|\?|!/).length
-     
+     puts "#{sentence_count} sentences"
   end
 end
