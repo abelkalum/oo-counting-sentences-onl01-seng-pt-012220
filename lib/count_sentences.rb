@@ -31,4 +31,6 @@ class String
     puts "#{sentence_count} sentences"
      
   end
+  def sentence_count
+    
 end
