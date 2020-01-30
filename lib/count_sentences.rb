@@ -3,9 +3,12 @@ require 'pry'
 class String
 
   def sentence?
-  end_with?(".")
-    true
-  end
+    if end_with?(".")
+      true
+    else
+      false
+    end
+end
 
   def question?
 
