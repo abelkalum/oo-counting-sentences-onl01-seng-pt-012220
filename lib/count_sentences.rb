@@ -29,7 +29,5 @@ class String
   def count_sentences(length)
      test.split(/\.|\?|!/).length
      puts "#{sentence_count} sentences"
-     binding.pry
-    end
   end
 end
