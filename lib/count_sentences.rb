@@ -27,9 +27,8 @@ class String
   end
 
   def count_sentences
-    sentence_count = self.split(/\.|\?|!/).length
+    sentence_count == self.split(/\.|\?|!/).length
     puts "#{sentence_count} sentences"
-    binding.pry 
   end
   def sentence_count
     @sentence_count
