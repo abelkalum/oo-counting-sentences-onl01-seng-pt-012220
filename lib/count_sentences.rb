@@ -32,5 +32,6 @@ class String
      
   end
   def sentence_count
-    
+    @sentence_count
+  end
 end
